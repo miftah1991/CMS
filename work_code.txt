@@ -1,0 +1,35 @@
+﻿
+ 
+تاریخونو په مخکی او رورسته کی باید توپیر وشی
+
+په تنظمات کی د پروژی حالت پاتی دی د ردولو لپاره
+
+Good Track کی کار پاتی دی
+ایمل کار پاتی دی
+صفر انتری باید ونشی
+تاریخونو تر منځ باید فرق وشی
+اوله صفحه کی باید حالت جوړ شی او تنظمات کی باید حالت ځای جوړ شی
+
+===========================
+/* var Pro_Fid=$("#Pro_Fid").val();
+        var Extand_Type1=1;
+ var Extand_Type2=2;
+    $.ajax({
+
+        url:'{{url('Find_Extand_Time')}}',
+        method:'get',
+        data:{Pro_Fid:Pro_Fid,Extand_Type:Extand_Type2},
+        success:function (res) {
+
+if(res.length>0)
+{
+    $("#bnttime").attr('disabled','true');
+}
+
+
+        }
+
+
+
+
+    })*/

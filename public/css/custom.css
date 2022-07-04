@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face { font-family: 'calibrib'; src: url('/public/fonts/calibrib.ttf'); }
+
+body { font-family:'calibrib'; direction: rtl; text-align: right; background-color: #f6f6f6; }
+h1, h2, h3, h4, h5, h6 { margin: 0 !important; }
+input, button, select, textarea { font-family: 'calibrib'; box-shadow: none !important; direction: rtl }
+th { vertical-align: middle !important; }
+a, a:link, a:hover, a:visited, a:active { text-decoration: none; color: inherit !important; }
+.table > tbody > tr > td { vertical-align: middle; }
+
+.font-cb { font-family:'calibrib'; }
+.bg-lightblue { background-color: #e3f2fd; }
+.w-200 { width: 200px!important }
+.w-120px { width: 120px!important }
+.bg-orange { background-color: #FF6600 !important; }
+.pointer { cursor: pointer !important; }
+.modal-content { border: none !important; }
+.modal-large { min-width: 80% !important; }
+.pagination { -ms-flex-pack:center!important; justify-content:center!important }
+.w-10 { width:10% !important }
+.w-30 { width:30% !important }
+.w-40 { width:40% !important }
+
+.top-header { height: 40px !important; }
+.page-title { border-bottom: thin solid #3BA845; }
+.notify { height: 40px; padding: 5px; margin: 0; position: fixed; bottom: 0; min-width: 100%; color:#FFF; text-align: center; }
+
+#project_fields, #planned_fields, #file_error, #file_success, #remaktoob { display: none; }
+
+/* Login Page */
+.navbar_trapezoid { border-bottom: 38px solid #FF6600; border-left: 30px solid transparent; border-right: 30px solid transparent; height: 0; padding: 0 !important }
+.login-header { background-color: #740000; color: #FFF; }
+.login-footer { position: fixed; bottom: 0; width: 100%; text-align: center; background-color: #E0E1E6; }
+
+/* -------------- */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CCC !important;
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CCC !important;
+}
+:-ms-input-placeholder { /* Microsoft Edge */
+    color: #CCC !important;
+}
+
+@media (max-width: 425px) { }
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { }
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {  }
+
+/*  Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {  }
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {  }
+
+/*  Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {  }
